@@ -1,0 +1,2 @@
+# FP_12
+Website merupakan suatu media informasi yang menawarkan berbagi kemudahan dalam menyajikan informasi yang tepat dan akurat. Kecepatan dan kenyamanan merupakan nilai positif adanya website.website untuk memberikan informasi kepada masyarakat luar tentang adanya tempat –tempat wista yang ada di yogyakarta .website yang nantinya di rancang terdiri dari beberapa halaman (home,event,dll)sehingga mampu mencakup semua kebutuhan
