@@ -1,0 +1,192 @@
+.jumbotron{
+	margin-top: 120px;
+	font-style: bold;
+	color: white;
+	background: -webkit-linear-gradient(#0f466e 0%,#387aab 75%);
+	
+   }
+
+   .display-4, h2{
+   	font-family: Impact, Charcoal, sans-serif;
+   	color: white;
+   }
+
+   .link-nav a{
+   	color: white;
+   	font-size: 16px;
+   }
+
+   /*-------- Start top-post Style -------------*/
+.col-md-6 {
+	padding-bottom: 23px;
+}
+
+@media (max-width: 575px) {
+  .top-post-area {
+    padding: 0px 15px;
+  }
+}
+
+.top-post-area .top-post-left .feature-image-thumb {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.top-post-area .top-post-left .feature-image-thumb .overlay-bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.top-post-area .top-post-left .feature-image-thumb img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.top-post-area .top-post-left:hover .feature-image-thumb img {
+  transform: scale(1.045);
+}
+
+.top-post-area .top-post-left .top-post-details {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+
+@media (max-width: 767px) {
+  .top-post-area .top-post-left .top-post-details {
+    bottom: 10px;
+    left: 15px;
+  }
+}
+
+.top-post-area .top-post-left .top-post-details .tags li {
+  display: inline-block;
+  background: #f6214b;
+  color: #fff;
+  margin-bottom: -60px;
+  margin-top: 50px;
+  padding: 4px 30px;
+  font-weight: 300;
+  margin-left: -40px;
+}
+
+.top-post-area .top-post-left .top-post-details .tags li a {
+  color: #fff;
+}
+
+.top-post-area .top-post-left .top-post-details h3 {
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+}
+
+@media (max-width: 767px) {
+  .top-post-area .top-post-left .top-post-details h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .top-post-area .top-post-left .top-post-details .meta li {
+    font-size: 9px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .top-post-area .top-post-left {
+    margin-bottom: 10px;
+  }
+}
+
+.top-post-area .top-post-right .single-top-post {
+  position: relative;
+}
+
+.top-post-area .top-post-right .single-top-post .feature-image-thumb {
+  overflow: hidden;
+}
+
+.top-post-area .top-post-right .single-top-post .feature-image-thumb img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.top-post-area .top-post-right .single-top-post .feature-image-thumb .overlay-bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.top-post-area .top-post-right .single-top-post:hover .feature-image-thumb img {
+  transform: scale(1.045);
+}
+
+.top-post-area .top-post-right .single-top-post .top-post-details {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+
+.top-post-area .top-post-right .single-top-post .top-post-details .tags li {
+  display: inline-block;
+  background: #f6214b;
+  color: #fff;
+  padding: 0px 2px 2px 6px;
+  font-weight: 200;
+  margin-left: -40px;
+}
+
+
+.top-post-area .top-post-right .single-top-post .top-post-details .tags li a {
+  color: #fff;
+  font-size: 10px;
+}
+
+.top-post-area .top-post-right .single-top-post .top-post-details h6 {
+  color: #fff;
+  margin-top: -130px;
+  margin-left: 0px;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  .top-post-area .top-post-right .single-top-post .top-post-details h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+
+
+/*-------- End top-post Style -------------*/
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination {
+	margin-top: 20px;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
