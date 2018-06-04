@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/s/style.css">
+    <link rel="stylesheet" type="text/css" href="css/petaa.css">
+    <script src="js/myscript.js"></script>
+    <style>
+    #map {
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+      }
+      </style>
+
+    <title>Peta</title>
+  </head>
+  <body>
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation" id="navbar">
+    <div class="container">
+  <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="135" height="80"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="event.html">Event</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Wisata
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="wisata.html">Wisata Sleman</a>
+          <a class="dropdown-item" href="wisata.html">Wisata Kota Yogyakarta</a>
+          <a class="dropdown-item" href="wisata.html">Wisata Bantul</a>
+          <a class="dropdown-item" href="wisata.html">Wisata Kulon Progo</a>
+          
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Kuliner.html">Kuliner</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="akomodasi.html">Akomodasi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="peta.html">Peta</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#kontak">Kontak</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class=" navbar navbar-expand-lg navbar-dark bg-light" style="margin-top: 105px;">
+<div class="container">
+  <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Wisata</a>
+    <a class="dropdown-item" href="#">Kuliner</a>
+    <a class="dropdown-item" href="#">Hotel</a>
+  </div>
+</div>
+<div class="container-fluid">
+<div class="search-container">
+    <form action="/action_page.php">
+      <div ng-app="myapp" ng-controller="usercontroller">
+      <div class="input-group">
+    <input name="search" id="search" ng-model="search" ng-keyup="complete(search)" class="form-control" type="search" placeholder="Search for Course" aria-label="Search" style="width: 500px;"><div class="input-group-prepend">
+        <span class="input-group-text btn btn-outline-secondary"><i class="fas fa-search"></i></span>
+      </div>
+      <ul class="list-group daftarsearch" ng-model="hidethis" ng-hide="hidethis">
+        <li class="list-group-item" ng-repeat="searchdata in filtersearch" ng-click="fillTextbox(searchdata)">{{searchdata}}</li>
+      </ul>
+      
+  </div>
+      
+     
+    </div>
+      
+    </form>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+  
+  
+
+    <div id="map">
+     <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3QGO7c9DWgC6gaWEbo0cFr_FMRWa6AkU&callback=initMap">
+    </script>
+  </div>
+<script src="js/myscript.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/myscript.js"></script>
+  </body>
+</html>
